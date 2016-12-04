@@ -1,11 +1,11 @@
 # script-laborator-ME
 pentru a nu deschide/inchide 120 fisiere pentru laboratorul de **"Management energetic pentru sisteme fotovoltaice"**
 
-##H2 Introducere:
+## Introducere:
 
 In acest repo gasiti un script scris in Python, care va va ajuta la extragerea unor date necesare pentru laboratorul de management energetic intitulat "Management energetic pentru sisteme fotovoltaice".
 
-##H2 Pretext
+## Pretext
 
 La acest laborator, printre altele, trebuie sa extragem din seria de fisiere .lvm primite(existente pe calculatoarele din laborator in folderul *Master 2016*, valorile puterii maxime debitate de celula de Siliciu monocristalin (care sunt cuprinse in fisierele de tip *I-V PV_1 999999 xxx.lvm* ) si valorile puterii maxime debitate de celula de Siliciu amorf (care sunt cuprinse in fisierele de tip *I-V PV_2 999999 xxx.lvm* ).
 
@@ -15,7 +15,7 @@ La acest laborator, printre altele, trebuie sa extragem din seria de fisiere .lv
 
 [logo]: https://github.com/etc-sodtr/script-laborator-ME/blob/master/exemplu.JPG "exemplu"
 
-##H2 utilizarea programului
+## utilizarea programului
 
 Am creat un folder (am folosit sistemul de operare Linux pentru rularea codului de Python) in care am introdus cele 60 de fisiere aferente celulei de siliciu monocristalin si scriptul *me3_final.py*. Apoi am deschis o consola si cu comanda `cd` m-am dus in folderul respectiv (scuze ca dau atatea detalii). apoi am rulat scriptul cu comanda `python me3_final.py` . Acest lucru trebuie facut si pentru cele 60 de fisiere aferente celulei de siliciu amorf.
 
