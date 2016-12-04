@@ -33,5 +33,5 @@ for filename in sorted(glob.glob('*.lvm')) :
 	
 
 if counter%12 != 0:
-	print "Atentie ! Ultima oara media nu s-a calculat pentru 12 fisiere! \n"
+	print "Atentie ! Media nu s-a mai calculat deoarece nu s-au mai gasit inca 12 fisiere! \n"
 
